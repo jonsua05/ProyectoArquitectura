@@ -1,9 +1,9 @@
 
-package com.manosenelcodigo.controller;
+package controlador;
 
-import com.manosenelcodigo.modelos.Conectar;
-import com.manosenelcodigo.modelos.Usuarios;
-import com.manosenelcodigo.modelos.UsuariosValidar;
+import modelo.Conectar;
+import modelo.Usuarios;
+import modelo.UsuariosValidar;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.servlet.http.HttpServletRequest;

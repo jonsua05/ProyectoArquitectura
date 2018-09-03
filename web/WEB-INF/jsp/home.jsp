@@ -10,7 +10,7 @@
     <body>
         <div class="container">
             <div class="row">
-                <h1>Ejemplo de JdbcTemplate</h1>
+                <h1>Base de datos</h1>
                 <p>
                     <a href="<c:url value="add.htm" />" class="btn btn-success"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar</a>
                 </p>

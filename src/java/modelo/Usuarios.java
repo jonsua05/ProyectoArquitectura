@@ -1,5 +1,5 @@
 
-package com.manosenelcodigo.modelos;
+package modelo;
 
 
 public class Usuarios {

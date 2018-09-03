@@ -1,9 +1,9 @@
 
-package com.manosenelcodigo.controller;
+package controlador;
 
-import com.manosenelcodigo.modelos.Conectar;
-import com.manosenelcodigo.modelos.Usuarios;
-import com.manosenelcodigo.modelos.UsuariosValidar;
+import modelo.Conectar;
+import modelo.Usuarios;
+import modelo.UsuariosValidar;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;

@@ -1,5 +1,5 @@
 
-package com.manosenelcodigo.modelos;
+package modelo;
 
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 

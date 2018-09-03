@@ -1,7 +1,7 @@
 
-package com.manosenelcodigo.controller;
+package controlador;
 
-import com.manosenelcodigo.modelos.Conectar;
+import modelo.Conectar;
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.RequestMapping;

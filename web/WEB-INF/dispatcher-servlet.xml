@@ -36,10 +36,10 @@
     <!--
     The index controller.
     -->
-    <bean name="homeController" class="com.manosenelcodigo.controller.HomeController" />
-    <bean name="addController" class="com.manosenelcodigo.controller.AddController" />
-    <bean name="editController" class="com.manosenelcodigo.controller.EditController" />
-    <bean name="deleteController" class="com.manosenelcodigo.controller.DeleteController" />
+    <bean name="homeController" class="controlador.HomeController" />
+    <bean name="addController" class="controlador.AddController" />
+    <bean name="editController" class="controlador.EditController" />
+    <bean name="deleteController" class="controlador.DeleteController" />
     <bean name="indexController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="index" />
