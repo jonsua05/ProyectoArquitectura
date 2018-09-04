@@ -42,6 +42,6 @@
     <bean name="deleteController" class="controlador.DeleteController" />
     <bean name="indexController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
-          p:viewName="index" />
+          p:viewName="home" />
 
 </beans>

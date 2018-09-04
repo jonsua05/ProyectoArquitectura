@@ -20,7 +20,7 @@ public class HomeController
     public ModelAndView home()
     {
         ModelAndView mav=new ModelAndView();
-        String sql="select * from usuarios order by id desc";
+        String sql="select * from usuarios order by id asc";
         List datos=this.jdbcTemplate.queryForList(sql);
         mav.addObject("datos",datos);
         mav.setViewName("home");
